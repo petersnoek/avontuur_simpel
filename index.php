@@ -12,7 +12,8 @@ if ( isset ( $_GET['location_id']) ) {
 }
 else
 {
-    printregel( 'Geen locatie meegegeven. Voorbeeld: http://localhost/index.php?location_id=1');
+    printregel( 'Geen locatie meegegeven. Voorbeeld: <a href="http://localhost/avontuur_simpel/index.php?location_id=1">http://localhost/avontuur_simpel/index.php?location_id=1</a>');
+    exit;
 }
 
 // maak verbinding met de database
